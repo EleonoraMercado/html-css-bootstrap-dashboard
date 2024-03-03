@@ -49,7 +49,7 @@
 
         </header>
 
-        <div class="container vw-100 d-flex align-items-center">
+        <div class="container vw-100 d-flex align-items-center pb-5">
            
             <form class="form-login bg-secondary bg-gradient bg-opacity-25 text-white p-4 rounded-4">
 
@@ -74,18 +74,18 @@
                 <div class="row g-3 mb-3">
                     <div class="col-md-6">
                         <label for="inputCitta" class="form-label">Città</label>
-                        <input type="text" class="form-control" id="inputCitta">
+                        <input type="text" class="form-control" id="inputCitta" required>
                     </div>
       
                     <div class="col-md-6">
                         <label for="inputcodicepostale" class="form-label">Codice postale</label>
-                        <input type="text" class="form-control" id="inputcodicepostale">
+                        <input type="text" class="form-control" id="inputcodicepostale" required>
                     </div>
                 </div>
 
                 <div class="col-12 mb-3">
                     <label for="inputPassword" class="form-label">Scegli password</label>
-                    <input type="password" id="inputPassword" class="form-control" aria-describedby="passwordHelpBlock">
+                    <input type="password" id="inputPassword" class="form-control" aria-describedby="passwordHelpBlock" required>
                     <div id="passwordHelpBlock" class="form-text text-white">
                         La tua password deve contenere tra gli 8-20 caratteri, deve contenere lettere e numeri, non deve contenere spazi, caratteri speciali, o emoji.
                     </div>
@@ -93,7 +93,7 @@
 
                 <div class="col-12 mb-3">
                     <label for="inputPassword2" class="form-label">Conferma password</label>
-                    <input type="password" id="inputPassword2" class="form-control">
+                    <input type="password" id="inputPassword2" class="form-control" required>
                 </div>
 
                 <div class="col-12 mb-3">
