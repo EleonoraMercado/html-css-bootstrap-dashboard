@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+.navbar-brand img {
+    max-width: 50px;
+ }
+
 #passwordHelpBlock {
     font-size: 10px;
 }
