@@ -1,0 +1,12 @@
+.container form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#passwordHelpBlock {
+    font-size: 10px;
+}
+
+.form-check-label {
+    font-size: 10px;
+}
